@@ -1,0 +1,45 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*Basic Elements*/
+body {  /*Body configs*/
+    background-color: #230b00;
+    padding: 0;
+    margin: 0;
+}
+h1 {    /*Title*/
+    color: #F8ECD4;
+    padding: 0.01em 1em;
+    font-family: "Archivo Black", sans-serif;
+}
+br {    /*Lines*/
+    color: #D4CFA5;
+}
+
+/*Note Block*/
+.block {      /*Block configs*/
+    height: 72vh;
+    font-family: "Lato", sans-serif;
+}
+
+/*Input*/
+
+.inputBox {     /*Input Div configs*/
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 2em;
+}
+.inputBox input {
+    border: none;
+    border-radius: 1.5em;
+    width:  698.683px;
+    margin-bottom: 1.5em;
+    height: 3em;
+}
+
+.inputBox input::placeholder {  /*Aling placeholder in the center of input*/
+    text-align: center;
+}
+.inputBox input {               /*Aling type text in the midlle*/
+    text-align: center;
+}
